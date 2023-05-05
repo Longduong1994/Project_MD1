@@ -1,0 +1,106 @@
+ .cart {
+   margin-top: 10%;
+   border: 1px solid #ccc;
+   padding: 20px 0;
+   background-color: #fff;
+ }
+
+ .cart h2 {
+   font-size: 24px;
+   margin-bottom: 30px;
+   text-align: center;
+ }
+
+ table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 20px;
+ }
+
+ thead {
+   background-color: #ff681f;
+   color: #fff;
+ }
+
+ th,
+ td {
+   padding: 10px;
+   text-align: center;
+ }
+
+ th {
+   font-weight: bold;
+ }
+
+ .product-img {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+ }
+
+ .product-img img {
+   width: 50px;
+   height: 50px;
+ }
+
+ .price-total {
+   text-align: right;
+   padding: 0 30px 0 0;
+ }
+
+ .price-total p {
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+ .price-total p span {
+   color: #f00;
+   font-size: 28px;
+ }
+
+ .btn-delete {
+   cursor: pointer;
+   color: white;
+   background: red;
+   padding: 5px 10px;
+   border: none;
+   border-radius: 5px;
+   outline: none;
+ }
+
+ .btn-delete:hover {
+   text-decoration: underline;
+ }
+
+ .pay {
+   display: flex;
+   justify-content: center;
+ }
+
+ .pay button {
+   background-color: rgb(255, 125, 0);
+   padding: 10px 40px;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+ }
+
+ tbody td input {
+   width: 60px;
+   height: 30px;
+   color: black;
+   text-align: center;
+   font-size: 17px;
+   outline: none;
+ }
+.btn-plus,.btn-minas{
+  width: 30px;
+  height: 30px;
+}
+
+.btn-table{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

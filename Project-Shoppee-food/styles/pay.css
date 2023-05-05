@@ -1,0 +1,48 @@
+.form-information {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h3{
+    text-align: center;
+    padding: 30px 0;
+    color: #26de81;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    width: 100%;
+  }
+  
+  .pay-btn{
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pay-btn:hover {
+    background-color: #e53935;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+  }
+  

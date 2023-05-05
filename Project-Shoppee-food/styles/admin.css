@@ -1,0 +1,131 @@
+
+form {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="file"],
+input[type="text"],
+input[type="number"],
+textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+input[type="file"] {
+	background-color: white;
+}
+.first-input{
+	width: 200px;
+}
+
+img {
+	max-width: 20%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+button {
+	background-color: #ff681f;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+#cancel-btn {
+	display: none;
+	background-color: #f44336;
+}
+
+#product-list-admin {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+#product-list-admin th,
+#product-list-admin td {
+	text-align: left;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+
+#product-list-admin th {
+	background-color: #ff681f;
+	color: white;
+	border: 1px solid white;
+	border-radius: 2px;
+	outline: none;
+	text-align: center;
+}
+
+#product-list-admin th:first-child {
+	width: 5%;
+}
+
+#product-list-admin th:last-child {
+	width: 15%;
+}
+
+#product-list-admin tr:hover {
+	background-color: #f5f5f5;
+}
+#product-list-admin td{
+	background-color: white;
+}
+.td-img {
+	width: 30%;
+}
+
+.btn-action {
+	display: flex;
+	justify-content: center;
+}
+
+.product-information h1 {
+	text-align: center;
+}
+
+.user-form{
+	display: flex;
+}
+h1{
+	padding-bottom: 50px;
+}
+#tbody-user tr .image{
+	width: 20%;
+}
+.search-box-productAdmin input {
+	width: 100%;
+	border: none;
+	outline: none;
+}
+.search-box-productAdmin{
+	padding-left: 10%;
+	width: 30%;
+	text-align: center;
+	position: relative;
+}
+.search-box-productAdmin button {
+	width: 50px;
+	height: 45px;
+	border: none;
+	position: absolute;
+	top: 0;
+	right: -10px;
+}

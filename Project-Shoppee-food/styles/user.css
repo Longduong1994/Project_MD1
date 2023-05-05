@@ -1,0 +1,71 @@
+ #user-list-admin {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#user-list-admin th,
+#user-list-admin td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#user-list-admin th {
+    background-color: #ff681f;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    outline: none;
+    text-align: center;
+}
+
+#user-list-admin th:first-child {
+    width: 10%;
+}
+
+#user-list-admin th:last-child {
+    width: 15%;
+}
+
+#user-list-admin tr:hover {
+    background-color: #f5f5f5;
+}
+#user-list-admin td{
+    background-color: white;
+    height: 40px;
+}
+h3{
+    text-align: center;
+}
+.edit-btn{
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #ff681f;
+    border-radius: 5px;
+}
+.update{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.confirm-btn,.cancel-btn{
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #ff681f;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+.tbody-user td img{
+    width: 30%;
+}
+#tbody-history td img{
+    width: 30%;
+}
+#tbody-history tr{
+    width: 100%;
+}

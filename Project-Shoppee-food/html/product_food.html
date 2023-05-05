@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LongFood/food</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="long food" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/styles/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="/styles/main_styles.css" />
+    <link rel="stylesheet" href="/styles/styleHome.css" />
+    <link rel="stylesheet" href="/styles/product.css">
+  </head>
+
+  <body>
+    <div class="super_container">
+      <!-- Header -->
+
+      <header class="header trans_300">
+        <!-- Top Navigation -->
+        <div class="top_nav">
+          <div class="container">
+            <p style="text-align: center; color: white">
+              Oder pizza cafe trứng
+            </p>
+          </div>
+        </div>
+
+        <!-- Main Navigation -->
+
+        <div class="main_nav_container">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-right">
+                <div class="logo_container">
+                  <a href="./home.html">Long<span>food</span></a>
+                </div>
+                <nav class="navbar">
+                  <ul class="navbar_menu">
+                    <li><a href="./product_food.html">Đồ Ăn</a></li>
+                    <li><a href="./product_drink.html">Đồ Uống</a></li>
+                    <li><a href="/html/product_fruit.html">Trái Cây</a></li>
+                    <li><a href="/html/product_cake.html">Bánh</a></li>
+                    <li><a href="/html/superMarket.html">Siêu Thị</a></li>
+                    <li><a href="/html/home.html">Giới Thiệu</a></li>
+                  </ul>
+                  <div class=" search-box">
+                    <input class="search-box-input" type="text">
+                    <button class="search-box-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                  </div>
+                  <ul class="navbar_user">
+                    <li id="login-user">
+                      <a  href="login.html">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                      </a>
+
+                    </li>
+                    <div class="dropdown">
+                      <button id="profile-btn">Login</button>
+                      <button id="logout-btn">Logout</button>
+                    </div>
+                    <li class="checkout">
+                      <a href="./cart.html">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <span id="checkout_items" class="checkout_items"
+                          ></span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="language-nav">
+                    <select>
+                      <option value="">Tiếng Việt</option>
+                      <option value="">English</option>
+                    </select>
+                  </div>
+                  <div class="hamburger_container">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="fs_menu_overlay"></div>
+      <div class="hamburger_menu">
+        <div class="hamburger_close">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <div class="hamburger_menu_content text-right">
+          <ul class="menu_top_nav">
+            <li class="menu_item has-children">
+              <a href="#">
+                Phương Thức Thanh Toán
+                <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="menu_selection">
+                <li><a href="#">Ví ShopeePay. </a></li>
+                <li><a href="#">Thẻ Tín dụng/Ghi nợ </a></li>
+                <li><a href="#">Trả góp bằng Thẻ tín dụng. </a></li>
+                <li><a href="#">Số dư TK Shopee. </a></li>
+                <li><a href="#">Chuyển khoản ngân hàng. </a></li>
+                <li><a href="#">Thẻ nội địa NAPAS. </a></li>
+                <li><a href="#">Thanh toán khi nhận hàng (COD). </a></li>
+              </ul>
+            </li>
+            <li class="menu_item has-children">
+              <a href="#">
+                Language
+                <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="menu_selection">
+                <li><a href="#">Tiếng Việt</a></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">日本語</a></li>
+                <li><a href="#">한국어</a></li>
+                <li><a href="#">中国语</a></li>
+              </ul>
+            </li>
+            <li class="menu_item has-children">
+              <a href="#">
+                Tài Khoản
+                <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="menu_selection">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng
+                    Nhập</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-user-plus" aria-hidden="true"></i>Đ</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="menu_item"><a href="#">Đồ Ăn</a></li>
+            <li class="menu_item"><a href="#">Đồ Uống</a></li>
+            <li class="menu_item"><a href="#">Trái Cây</a></li>
+            <li class="menu_item"><a href="#">Bánh</a></li>
+            <li class="menu_item"><a href="#">Siêu Thị</a></li>
+            <li class="menu_item"><a href="#">Giới Thiệu</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="list-product">
+        <div class="information">
+            <!-- <div class="product">
+                <img src="/img/Anh-do-an-chup-tu-tren-cao.jpg" alt="product Poster">
+                <div class="info">
+                    <h3>Oplate</h3>
+                    <p>Quán: Cầu Giấy</p>
+                    <p>Giá: <span style="color: blue;">50000</span> <sup>đ</sup></p>
+                    <p>Giảm giá:<span style="color: red;"><span>50</span> %</span> <span> Chỉ còn</span> <span style="color: red;"><span>25000</span><sup>đ</sup></span></p>
+                    <p>Đánh Giá: 1sao <button class="btn-add">Thêm vào giỏ hàng</button> </p>
+
+                </div>
+            </div> -->
+    
+        </div>
+
+      </div>
+
+      
+<!-- footer -->
+
+<div class="footter">
+  <div>
+    <p style="color: black;font-size: 18px;">Công ty</p>
+    <ul class="menu-footer">
+      <li class="menu-item"><a href="/gioi-thieu">Giới thiệu</a></li>
+      <li class="menu-item">
+        <a
+          href="https://help.shopeefood.vn/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Trung tâm Trợ giúp</a
+        >
+      </li>
+      <li class="menu-item"><a href="/regulation-web">Quy chế</a></li>
+      <li class="menu-item">
+        <a href="/terms-of-service">Điều khoản sử dụng</a>
+      </li>
+      <li class="menu-item">
+        <a href="/security-policy">Bảo mật thông tin</a>
+      </li>
+      <li class="menu-item">
+        <a href="/adjustment-of-claims">Giải quyết khiếu nại</a>
+      </li>
+      <li class="menu-item"><a href="/lien-he">Liên hệ</a></li>
+      <li class="menu-item">
+        <a href="/tuyen-dung">Hợp tác nhân viên giao nhận</a>
+      </li>
+      <li class="menu-item">
+        <a href="/merchant-register">Đăng ký quán</a>
+      </li>
+      <li class="menu-item">
+        <a href="https://merchant.shopeefood.vn/edu/">ShopeeFood Uni</a>
+      </li>
+      <li class="menu-item">
+        <a
+          href="https://shopee.vn/blog/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Shopee Blog</a
+        >
+      </li>
+    </ul>
+  </div>
+  <div footer-app>
+    <p class="font12" style="color: black;">© 2023 LozFood</p>
+    <ul class="social-ico">
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          href="https://www.facebook.com/shopeefoodvn"
+          title="Facebook"
+        >
+          <span class="facebook ico"
+            ><i class="bi bi-facebook"></i><b>Facebook</b></i
+          ></span>
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          href="https://www.instagram.com/shopeefood_vn/"
+          title="Instagram"
+        >
+          <span class="instagram ico"
+            ><i class="bi bi-instagram"></i><b>Instagram</b></i
+          ></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div style="text-align: right;">
+    <p style="color: black;font-size: 18px;">Địa chỉ công ty</p>
+    <span>
+      <p>Công Ty Cổ Phần Foody</p>
+      <p>Lầu G, Tòa nhà Jabes 1,</p>
+      <p>số 244 đường Cống Quỳnh, phường Phạm Ngũ Lão, Quận 1, TPHCM</p>
+      <p>Giấy CN ĐKDN số: 0311828036</p>
+      <p>do Sở Kế hoạch và Đầu tư TP.HCM cấp ngày 11/6/2012,</p>
+      <p>sửa đổi lần thứ 23, ngày 10/12/2020</p>
+      <p>Chịu trách nhiệm quản lý nội dung: Nguyễn Hồ Quảng Giang</p>
+      <p>Điện thoại liên hệ: 028 71096879</p>
+      <p>
+        Email:
+        <a href="mailto:support@shopeefood.vn">support@shopeefood.vn</a>
+      </p>
+    </span>
+  </div>
+</div>
+  </body>
+  <script src="/js/food_product.js"></script>
+  <script src="../js/checkLogin.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</html>

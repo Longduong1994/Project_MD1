@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+
+1. 991px
+2. 479px
+
+
+******************************/
+
+
+
+/************
+1. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	h1{font-size: 48px;}
+	h2{font-size: 36px;}
+	.language-nav{
+		display: none;
+	}
+	.shop_now_button
+	{
+		margin-top: 26px;
+	}
+	.top_nav
+	{
+		display: none;
+	}
+	.navbar_menu
+	{
+		display: none;
+	}
+	.hamburger_container
+	{
+		display: block;
+	}
+	.main_slider
+	{
+		margin-top: 100px;
+	}
+	.main_slider_content
+	{
+		width: 100%;
+		padding-right: 15px;
+	}
+	
+	
+}
+
+
+
+
+
+/************
+2. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	.navbar-slider{
+		width: 100%;
+	}
+	.col-lg-12 text-right{
+		width: 33%;
+	}
+	.logo_container a
+	{
+		font-size: 12px;
+	}
+	.hamburger_container
+	{
+		margin-left: 25px;
+	}
+	.hamburger_container i
+	{
+		font-size: 16px;
+	}
+	.hamburger_close
+	{
+		top: 14px;
+		right: 4px;
+	}
+	.hamburger_close i
+	{
+		font-size: 20px;
+	}
+	.hamburger_menu_content
+	{
+		padding-right: 15px;
+		padding-top: 70px;
+	}
+	.menu_item
+	{
+		border-bottom-color: rgba(181, 174, 196, 0.5);
+	}
+	.menu_item > a
+	{
+		font-size: 12px;
+		line-height: 35px;
+		height: 35px;
+	}
+	.menu_selection li a
+	{
+		font-size: 12px;
+		line-height: 35px;
+		height: 35px;
+	}
+	.navbar
+	{
+		height: 70px;
+	}
+	.navbar_user li a
+	{
+		width: 30px;
+		height: 30px;
+		font-size: 12px;
+	}
+	.checkout_items
+	{
+		width: 15px;
+		height: 15px;
+		font-size: 10px;		
+	}
+	.main_slider
+	{
+		height: calc(100vh - 70px);
+		/*height: 80vw;*/
+		min-height: auto;
+		margin-top: 70px;
+	}
+	/* .hamburger_menu{
+		right: 0px;
+	}
+	 */
+	
+
+	.main_slider_content{
+		display: none;
+	}
+	.main_slider_content h6
+	{
+		margin-bottom: 15px;
+	}
+	.main_slider_content h1
+	{
+		font-size: 24px;
+	}
+	/* .shop_now_button
+	{
+		margin-top: 15px;
+		width: 100px;
+		height: 35px;
+	} */
+	.red_button a
+	{
+		font-size: 10px;
+	}	
+	.now-container-coporation{
+		padding: 20px 70px 50px;
+	}
+	.font15 img{
+		display: none;
+	}
+	.show-menu{
+		width: 66% !important;
+		margin-top :20% !important; ;
+	}
+	.listMenu{
+		width: 100%;
+	}
+	.food-menu{
+		width: 150px !important;
+		height: 180px !important;
+	}
+	.food-menu img {
+		width: 150px !important;
+		background-size: cover;
+		overflow: hidden;
+		border-radius: 5px;
+	}
+	.blog img{
+		display: none;
+	}
+	.now-container-coporation{
+		padding: 30px !important;
+	}
+	.footter{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding: 30px !important;
+	}
+}
+
